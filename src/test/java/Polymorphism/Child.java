@@ -8,6 +8,11 @@ public class Child extends Parent {
 		System.out.println("Eating Pani Puri");
 		
 	}
+	  
+	  public void play() throws InterruptedException {
+		  Thread.sleep(5000); //
+			System.out.println("Playing Cricket");
+	  }
 
 	public static void main(String[] args) throws InterruptedException {
 
